@@ -1,0 +1,13 @@
+{
+  "name": "deepseek-api",
+  "version": "1.0.0",
+  "description": "API route for DeepSeek",
+  "main": "api/deepseek.js", // Optionnel pour Vercel, mais bonne pratique
+  "scripts": {
+    "start": "node api/deepseek.js" // Ceci est un exemple, Vercel gère les fonctions sans serveur différemment
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0" // Si vous utilisez node-fetch explicitement, sinon fetch est natif en Node 18+
+  },
+  "type": "module" // Important si vous utilisez `export default`
+}
